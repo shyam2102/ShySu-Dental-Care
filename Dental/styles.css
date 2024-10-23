@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-top: 60px; /* to avoid navbar overlapping content */
+  }
+  
+ /* Home Section Styling */
+.home-section {
+    height: 100vh;
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better text visibility */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  
+  .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    #home h1 {
+      font-size: 2rem;
+    }
+  
+    #home p {
+      font-size: 1.2rem;
+    }
+  }
+  
